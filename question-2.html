@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz">
+            <form>
+                <div class="heading">
+                    Simple Quiz
+                </div>
+                <hr width="100%">
+                <div class="Question">
+                    2.Which is the smallest country in the world?
+                </div>
+                <div class="Option-1">
+                    <input type="button" value="Vatican City" onclick="correctAnswer(this)">
+                </div>
+                <div class="Option-2">
+                    <input type="button" value="Bhutan" onclick="correctAnswer(this)">
+                </div>
+                <div class="Option-3">
+                    <input type="button" value="Nepal" onclick="correctAnswer(this)">
+                </div>
+                <div class="Option-4">
+                    <input type="button" value="Sri Lanka" onclick="correctAnswer(this)">
+                </div>
+            </form>
+            <div class="Next-Option">
+                <input type="button" value="Next" onclick="goToNextPage2()">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
